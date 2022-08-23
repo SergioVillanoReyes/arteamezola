@@ -1,0 +1,148 @@
+@import 'variables';
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none
+}
+p{
+    margin: 0 !important;
+}
+.super-title {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;  
+}
+.title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.sub-title{
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+.text {
+    font-size: 17px;
+    line-height: 26px;
+    color: #777;
+    margin-top: 25px;
+}
+.c-white {
+    color: white;
+}
+.container {
+    padding: 2rem 3rem;
+}
+.rowToColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+}
+.m1{
+    margin: 1rem !important;
+}
+.m2{
+    margin: 2rem!important;
+}
+.m3{
+    margin: 3rem !important;
+}
+.m4{
+    margin: 4rem !important;
+}
+.m5{
+    margin: 5rem !important;
+}
+.p1{
+    padding: 1rem;
+}
+.p2{
+    padding: 2rem;
+}
+.p3{
+    padding: 3rem;
+}
+.p4{
+    padding: 4rem;
+}
+.p5{
+    padding: 5rem;
+}
+.p5-0{
+    padding: 0;
+}
+.w100{
+    width: 100%;
+}
+.w90{
+    width: 90%;
+}
+.w80{
+    width: 80%;
+}
+.w70{
+    width: 70%;
+}
+.w60{
+    width: 60%;
+}
+.w50{
+    width: 50%;
+}
+.w15{
+    width: 15px;
+}
+.m-auto{
+    margin: auto;
+}
+.br15{
+    border-radius: 15px
+}
+.bold{
+    font-weight: bold
+}
+.txtLeftToCenter{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-secondary-light{
+    background-color: $secondary-light;
+}
+.h15{
+    height: 25vh !important;
+    min-height: 25vh !important;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: $breakpoint-md) {
+    .rowToColumn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .txtLeftToCenter{
+        text-align: left;
+    }
+    .p5-0{
+        padding: 5rem;
+    }
+}
+
+@import 'pages/pages';
+@import 'components/components';

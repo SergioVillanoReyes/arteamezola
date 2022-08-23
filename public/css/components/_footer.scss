@@ -1,0 +1,16 @@
+.footer{
+    background-color: #222831 !important;
+    color: white;
+    .container-footer{
+        justify-content: space-between;
+        .social-horizontal{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            justify-content: space-between;
+            .social-icons {
+                width: 20px;
+            }
+        }
+    }
+}
